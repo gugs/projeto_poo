@@ -21,7 +21,8 @@ public class RespostaListaExercicio {
 	 */
 	public static float calcularImc(float peso, float altura) 
 	{
-		return 0f;
+		float imc = peso/(altura*altura);
+		return imc;
 	}
 	
 	/**
@@ -34,7 +35,7 @@ public class RespostaListaExercicio {
 	 */
 	public static float calcularAreaTrapezio(float baseMaior, float baseMenor, float altura) 
 	{	
-		return 0f;
+		return ((baseMaior+baseMenor)*altura)/2;
 	}
 	
 	/**
